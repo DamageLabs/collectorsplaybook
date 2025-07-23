@@ -1,39 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FZMJEC74W"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-7FZMJEC74W');
-    </script>
-    <!-- Google tag (gtag.js) -->  
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17265705932"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-17265705932');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found - Collectors Playbook</title>
-    <meta name="description" content="The page you're looking for doesn't exist. Browse our premium sports cards collection instead.">
-    <meta name="robots" content="noindex, follow">
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <title>Blog - Collectors Playbook</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="blog-styles.css">
+    <script src="../assets/js/fontawesome.js"></script>
+    <script src="../assets/js/solid.js"></script>
+    <script src="../assets/js/brands.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FZMJEC74W"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7FZMJEC74W');
+    </script>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="navbar-container">
             <a class="navbar-brand" href="/">
-                <img src="logo.png" alt="Collectors Playbook Logo">
+                <img src="../logo.png" alt="Collectors Playbook Logo">
                 <span>Collectors Playbook</span>
             </a>
             <button class="mobile-menu-toggle" id="mobileMenuToggle">
@@ -44,7 +32,7 @@
             <ul class="navbar-nav" id="navbarNav">
                 <li><a class="nav-link" href="/">Home</a></li>
                 <li><a class="nav-link" href="/all-cards.html">All Cards</a></li>
-                <li><a class="nav-link" href="/blog/">Blog</a></li>
+                <li><a class="nav-link active" href="/blog/">Blog</a></li>
                 <li><a class="nav-link" href="/about.html">About</a></li>
                 <li class="dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">Resources</a>
@@ -59,22 +47,29 @@
         </div>
     </nav>
 
-    <!-- 404 Content -->
-    <section class="hero-section" style="min-height: 80vh; display: flex; align-items: center;">
-        <div class="container">
-            <div class="section-header">
-                <h1 style="font-size: 6rem; color: var(--primary-gold); font-weight: 800; margin-bottom: 1rem;">404</h1>
-                <h2 class="section-title">Oops! Page Not Found</h2>
-                <p class="section-subtitle">The card you're looking for might have been sold or moved to a different collection.</p>
-                <div class="cta-buttons" style="margin-top: 2rem;">
-                    <a href="/" class="btn btn-primary">Go Home</a>
-                    <a href="/all-cards.html" class="btn btn-secondary">Browse All Cards</a>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="section-header">
+                    <h1 class="section-title">Collectors Playbook Blog</h1>
+                    <p class="section-subtitle">Insights, Tips, and Stories from the World of Sports Card Collecting</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <section class="blog-posts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Latest Posts</h2>
+                    <p class="section-subtitle">Stay updated with the latest from the sports card collecting world</p>
+                </div>
+                <div id="blog-list" class="blog-grid">
+                    <!-- Blog posts will be injected here by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -83,13 +78,13 @@
                     <p>Your trusted marketplace for premium sports cards, operated by a young collector with passion.</p>
                     <div class="footer-social">
                         <a href="https://x.com/CPlaybookTX" class="social-link" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/svgs/brands/x-twitter.svg" alt="X (Twitter)" width="28" height="28">
+                            <img src="../assets/svgs/brands/x-twitter.svg" alt="X (Twitter)" width="28" height="28">
                         </a>
                         <a href="https://www.instagram.com/collectorsplaybook/" class="social-link" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/svgs/brands/instagram.svg" alt="Instagram" width="28" height="28">
+                            <img src="../assets/svgs/brands/instagram.svg" alt="Instagram" width="28" height="28">
                         </a>
                         <a href="https://www.facebook.com/collectorsplaybook" class="social-link" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/svgs/brands/facebook.svg" alt="Facebook" width="28" height="28">
+                            <img src="../assets/svgs/brands/facebook.svg" alt="Facebook" width="28" height="28">
                         </a>
                         <a href="https://www.ebay.com/str/collectorsplaybooktx" class="social-link" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" height="28" width="28" viewBox="0 0 640 512">
@@ -103,8 +98,9 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/all-cards.html">All Cards</a></li>
+                        <li><a href="/blog/">Blog</a></li>
                         <li><a href="/#featured">Featured Cards</a></li>
-                        <li><a href="/#about">About Us</a></li>
+                        <li><a href="/about.html">About Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -121,9 +117,10 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="blog.js"></script>
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
+        // Mobile menu toggle
         const mobileMenuToggle = document.getElementById('mobileMenuToggle');
         const navbarNav = document.getElementById('navbarNav');
         
@@ -132,16 +129,51 @@
             navbarNav.classList.toggle('active');
         });
         
-        const navLinks = navbarNav.querySelectorAll('.nav-link');
+        // Close mobile menu when clicking a link
+        const navLinks = navbarNav.querySelectorAll('.nav-link:not(.dropdown-toggle)');
         navLinks.forEach(link => {
             link.addEventListener('click', function() {
                 mobileMenuToggle.classList.remove('active');
                 navbarNav.classList.remove('active');
             });
         });
-    });
+        
+        // Handle dropdown for mobile only
+        const dropdown = document.querySelector('.dropdown');
+        const dropdownToggle = document.querySelector('.dropdown-toggle');
+        const dropdownMenu = document.querySelector('.dropdown-menu');
+
+        if (dropdown && dropdownToggle && dropdownMenu) {
+            // For mobile - click toggle
+            dropdownToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                if (window.innerWidth <= 768) {
+                    dropdown.classList.toggle('active');
+                }
+            });
+        }
+
+        // Prevent dropdown from closing when clicking inside it
+        if (dropdownMenu) {
+            dropdownMenu.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!dropdown.contains(e.target)) {
+                dropdown.classList.remove('active');
+            }
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                dropdown.classList.remove('active');
+            }
+        });
     </script>
-    
-    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6c13ae2ab85a4e75962a3c26fa20159c"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
