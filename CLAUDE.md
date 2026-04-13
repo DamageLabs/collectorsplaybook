@@ -16,7 +16,7 @@ Collectors Playbook is a premium sports cards marketplace website showcasing aut
 ### Technical Stack
 - Static HTML/CSS website
 - Font Awesome Pro for icons
-- Google Analytics (G-7FZMJEC74W)
+- Umami Analytics (analytics.damagelabs.io, website ID: a6c86111-54b8-4c8b-beca-e2df5441a3af)
 - Google Ads Conversion Tracking (AW-17265705932)
 - Formspree for contact form (form ID: xpwrolyq)
 - Cloudflare Web Analytics
