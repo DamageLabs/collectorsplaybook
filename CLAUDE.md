@@ -39,10 +39,22 @@ Collectors Playbook is a premium sports cards marketplace website showcasing aut
 - Follow the gold (#F4B643) and navy (#1B2951) color scheme
 
 ### Running Locally
-```bash
-python3 -m http.server 8000
-# Access at http://localhost:8000
+The site is served by Caddy directly — no server process needed.
+
 ```
+https://collectorsplaybook.test
+```
+
+Caddy is configured at `/opt/homebrew/etc/Caddyfile` with:
+```
+collectorsplaybook.test {
+    root * /Users/guntharp/Code/collectorsplaybook
+    file_server
+    tls internal
+}
+```
+
+If Caddy isn't running: `sudo caddy start --config /opt/homebrew/etc/Caddyfile`
 
 ### Common Tasks
 
