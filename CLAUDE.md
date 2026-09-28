@@ -48,7 +48,7 @@ https://collectorsplaybook.test
 Caddy is configured at `/opt/homebrew/etc/Caddyfile` with:
 ```
 collectorsplaybook.test {
-    root * /Users/guntharp/Code/collectorsplaybook
+    root * "/Volumes/MS4 Storage/Code/collectorsplaybook"
     file_server
     tls internal
 }
