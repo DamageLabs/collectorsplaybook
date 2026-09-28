@@ -83,10 +83,11 @@
         <div class="container">
             <div class="section-header">
                 <h1 class="section-title">Browse Inventory</h1>
-                <p class="section-subtitle">Authenticated graded sports cards and factory sealed LEGO sets — including retired sets.</p>
+                <p class="section-subtitle">Authenticated graded sports cards, Pokémon cards, and factory sealed LEGO sets — including retired sets.</p>
                 <div class="mt-3" style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
                     <a href="#cards" class="btn btn-primary">📊 Cards</a>
                     <a href="#emanate" class="btn btn-primary">🏆 Fanatics Emanate</a>
+                    <a href="#pokemon" class="btn btn-primary">⚡ Pokémon</a>
                     <a href="#lego" class="btn btn-primary">🧱 Sealed LEGO Sets</a>
                     <a href="https://www.ebay.com/str/collectorsplaybooktx" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                         🛍️ Visit eBay Store
@@ -106,6 +107,7 @@
                     <option value="basketball">Basketball</option>
                     <option value="football">Football</option>
                     <option value="soccer">Soccer</option>
+                    <option value="pokemon">Pokémon</option>
                 </select>
                 <select style="padding: 0.75rem; border: 1px solid var(--medium-gray); border-radius: 8px; background: white; font-size: 1rem;" id="priceFilter">
                     <option value="">All Prices</option>
@@ -159,31 +161,7 @@
                         <h3 class="product-title">2022 Panini Flawless</h3>
                         <p class="product-subtitle">Desmond Ridder &amp; Drake London Dual Diamond Memorabilia 1/1</p>
                         <div class="product-footer">
-                            <span class="product-price">$2,999.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188411065585" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/nE8AAeSwBspqEI7I/s-l1600.webp" class="product-image" alt="2024 Panini Prizm Drake Maye Green Scope #329 P..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">PSA 9 RC</span>
-                        <h3 class="product-title">2024 Panini Prizm</h3>
-                        <p class="product-subtitle">Drake Maye Green Scope #329 New England Patriots /75</p>
-                        <div class="product-footer">
-                            <span class="product-price">$1,999.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188411065582" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/AvUAAeSw5-9qEIx9/s-l1600.webp" class="product-image" alt="2024 Panini Mosaic Michael Penix Jr. Gold No Hu..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">PSA 10 RC /10</span>
-                        <h3 class="product-title">2024 Panini Mosaic</h3>
-                        <p class="product-subtitle">Michael Penix Jr. Gold No Huddle #308</p>
-                        <div class="product-footer">
-                            <span class="product-price">$1,999.99</span>
+                            <span class="product-price">$2,499.99</span>
                         </div>
                     </div>
                 </a>
@@ -212,26 +190,74 @@
                     </div>
                 </a>
 
+                <a href="https://www.ebay.com/itm/188411065582" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/AvUAAeSw5-9qEIx9/s-l1600.webp" class="product-image" alt="2024 Panini Mosaic Michael Penix Jr. Gold No Hu..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 10 RC /10</span>
+                        <h3 class="product-title">2024 Panini Mosaic</h3>
+                        <p class="product-subtitle">Michael Penix Jr. Gold No Huddle #308</p>
+                        <div class="product-footer">
+                            <span class="product-price">$1,999.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188411065585" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/nE8AAeSwBspqEI7I/s-l1600.webp" class="product-image" alt="2024 Panini Prizm Drake Maye Green Scope #329 P..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9 RC</span>
+                        <h3 class="product-title">2024 Panini Prizm</h3>
+                        <p class="product-subtitle">Drake Maye Green Scope #329 New England Patriots /75</p>
+                        <div class="product-footer">
+                            <span class="product-price">$1,999.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188413865673" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/kgYAAeSwgsVqEaXW/s-l1600.webp" class="product-image" alt="2022 Panini Mosaic Younghoe Koo Nebula Choice #..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 10</span>
+                        <h3 class="product-title">2022 Panini Mosaic</h3>
+                        <p class="product-subtitle">Younghoe Koo Nebula Choice #9 Atlanta Falcons /1</p>
+                        <div class="product-footer">
+                            <span class="product-price">$1,999.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188831369822" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/tMoAAeSwo5FqiyHD/s-l1600.webp" class="product-image" alt="2022 Flawless Sauce Gardner Bronze RPA Rookie P..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">BGS 9 RC</span>
+                        <h3 class="product-title">2022 Panini Flawless</h3>
+                        <p class="product-subtitle">Sauce Gardner Bronze RPA Rookie Patch Auto /6 NFL Shield</p>
+                        <div class="product-footer">
+                            <span class="product-price">$1,999.99</span>
+                        </div>
+                    </div>
+                </a>
+
                 <a href="https://www.ebay.com/itm/188106865026" class="product-card" target="_blank" rel="noopener noreferrer">
                     <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/JOAAAeSwQedpo1vg/s-l1600.webp" class="product-image" alt="2001 Upper Deck SP Authentic Steve Young Sign o..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">PSA 10</span>
                         <h3 class="product-title">2001 Upper Deck SP Authentic</h3>
-                        <p class="product-subtitle">Steve Young Sign of the Times #SY San Fra...</p>
+                        <p class="product-subtitle">Steve Young Sign of the Times #SY San Francisco 49ers</p>
                         <div class="product-footer">
                             <span class="product-price">$1,999.00</span>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188401245015" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/oo4AAeSw7kpqDPn0/s-l1600.webp" class="product-image" alt="2016 Panini Flawless Jordy Nelson Platinum #29..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188832040383" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/fW8AAeSwvmNqfkZf/s-l1600.webp" class="product-image" alt="2024 Panini Mosaic Rudy Gobert Pictographs Nebu..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">PSA 8</span>
-                        <h3 class="product-title">2016 Panini Flawless</h3>
-                        <p class="product-subtitle">Jordy Nelson Platinum #29 Green Bay Packers /1</p>
+                        <h3 class="product-title">2024 Panini Mosaic</h3>
+                        <p class="product-subtitle">Rudy Gobert Pictographs Nebula Choice 1/1 #PMRUD</p>
                         <div class="product-footer">
-                            <span class="product-price">$1,499.99</span>
+                            <span class="product-price">$1,500.00</span>
                         </div>
                     </div>
                 </a>
@@ -248,32 +274,56 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188359470261" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/x-0AAeSwM4Zp~PI-/s-l1600.webp" class="product-image" alt="2023 Panini Obsidian Isaiah Joe Galaxy Ink #GI-..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188401245015" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/oo4AAeSw7kpqDPn0/s-l1600.webp" class="product-image" alt="2016 Panini Flawless Jordy Nelson Platinum #29 ..." loading="lazy">
                     <div class="product-info">
-                        <span class="product-badge"></span>
-                        <h3 class="product-title">2023 Panini Obsidian</h3>
-                        <p class="product-subtitle">Isaiah Joe Galaxy Ink #GI-JOE Oklahoma City Thunder</p>
+                        <span class="product-badge">PSA 8</span>
+                        <h3 class="product-title">2016 Panini Flawless</h3>
+                        <p class="product-subtitle">Jordy Nelson Platinum #29 Green Bay Packers /1</p>
                         <div class="product-footer">
-                            <span class="product-price">$1,499.00</span>
+                            <span class="product-price">$1,499.99</span>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188401315125" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/DyMAAeSwu-dqDQyy/s-l1600.webp" class="product-image" alt="2018 Panini Select Josh Allen Rookie Signature..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188413865679" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/CFwAAeSwGgVqEaO-/s-l1600.webp" class="product-image" alt="2021 Panini Contenders Optic Trevor Lawrence #1..." loading="lazy">
                     <div class="product-info">
-                        <span class="product-badge">BGS 9 RC /49</span>
-                        <h3 class="product-title">2018 Panini Select</h3>
-                        <p class="product-subtitle">Josh Allen Rookie Signature Memorabilia Prizm #4</p>
+                        <span class="product-badge">PSA 10 RC</span>
+                        <h3 class="product-title">2021 Panini Contenders Optic</h3>
+                        <p class="product-subtitle">Trevor Lawrence #101 Jacksonville Jaguars</p>
                         <div class="product-footer">
-                            <span class="product-price">$1,199.99</span>
+                            <span class="product-price">$1,499.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188788244537" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/Wg4AAeSw7DdqfiRc/s-l1600.webp" class="product-image" alt="2009 Topps Wal-Mart Exclusive Factory Set Tom B..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9</span>
+                        <h3 class="product-title">2009 Topps</h3>
+                        <p class="product-subtitle">Wal-Mart Exclusive Factory Set Tom Brady Gold Refractor #W2</p>
+                        <div class="product-footer">
+                            <span class="product-price">$1,450.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188871245404" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/2EIAAeSwUXpqlui9/s-l1600.webp" class="product-image" alt="2024 Panini Select Jayden Daniels White Prizm #..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 10 RC</span>
+                        <h3 class="product-title">2024 Panini Select</h3>
+                        <p class="product-subtitle">Jayden Daniels White Prizm #217 /35</p>
+                        <div class="product-footer">
+                            <span class="product-price">$1,299.99</span>
                         </div>
                     </div>
                 </a>
 
                 <a href="https://www.ebay.com/itm/188408229197" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/ZnMAAeSwVKVqD41l/s-l1600.webp" class="product-image" alt="2022 Panini Prizm Brock Purdy No Huddle Purple..." loading="lazy">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/ZnMAAeSwVKVqD41l/s-l1600.webp" class="product-image" alt="2022 Panini Prizm Brock Purdy No Huddle Purple ..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">PSA 10 RC</span>
                         <h3 class="product-title">2022 Panini Prizm</h3>
@@ -284,72 +334,36 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188401244996" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/UcMAAeSwNnNqDQhF/s-l1600.webp" class="product-image" alt="2017 Panini Donruss Optic Patrick Mahomes II #7..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">PSA 10 RC</span>
-                        <h3 class="product-title">2017 Panini Donruss</h3>
-                        <p class="product-subtitle">Optic Patrick Mahomes II #7 Kansas City Chiefs</p>
-                        <div class="product-footer">
-                            <span class="product-price">$1,199.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188408588106" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/BOAAAeSwyWlqD6w6/s-l1600.webp" class="product-image" alt="2023 Panini National Treasures Peyton Manning E..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">PSA 10 /10</span>
-                        <h3 class="product-title">2023 Panini National Treasures</h3>
-                        <p class="product-subtitle">Peyton Manning Emerald #43</p>
-                        <div class="product-footer">
-                            <span class="product-price">$1,199.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188408588104" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/ODgAAeSw5-9qD5Q2/s-l1600.webp" class="product-image" alt="2023 Panini Donruss Optic C.J. Stroud Orange Sc..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">PSA 10 RC /79</span>
-                        <h3 class="product-title">2023 Panini Donruss</h3>
-                        <p class="product-subtitle">Optic C.J. Stroud Orange Scope #244</p>
-                        <div class="product-footer">
-                            <span class="product-price">$1,099.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188408229189" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/DxoAAeSw~RxqD5GB/s-l1600.webp" class="product-image" alt="2023 Panini Absolute Christian McCaffrey Kaboom..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">PSA 10</span>
-                        <h3 class="product-title">2023 Panini Absolute</h3>
-                        <p class="product-subtitle">Christian McCaffrey Kaboom! Horizontal #6</p>
-                        <div class="product-footer">
-                            <span class="product-price">$999.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188399811825" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/1PsAAeSwrIhqDHri/s-l1600.webp" class="product-image" alt="2021 Panini Absolute Aaron Rodgers Kaboom #K10..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">PSA 9</span>
-                        <h3 class="product-title">2021 Panini Absolute</h3>
-                        <p class="product-subtitle">Aaron Rodgers Kaboom #K10 Green Bay Packers</p>
-                        <div class="product-footer">
-                            <span class="product-price">$999.99</span>
-                        </div>
-                    </div>
-                </a>
-
                 <a href="https://www.ebay.com/itm/188401458919" class="product-card" target="_blank" rel="noopener noreferrer">
                     <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/kQIAAeSwyXRqDRsM/s-l1600.webp" class="product-image" alt="2022 Panini Immaculate Collection Jalen Hurts M..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">PSA 9 /49</span>
-                        <h3 class="product-title">2022 Panini Immaculate</h3>
-                        <p class="product-subtitle">Collection Jalen Hurts Modern Marks #MMA-JHU</p>
+                        <h3 class="product-title">2022 Panini Immaculate Collection</h3>
+                        <p class="product-subtitle">Jalen Hurts Modern Marks #MMA-JHU</p>
+                        <div class="product-footer">
+                            <span class="product-price">$999.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188440512007" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/VnIAAeSwwflqGdJn/s-l1600.webp" class="product-image" alt="2020 Panini Contenders Tua Tagovailoa Champions..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">BGS 9.5 RC /49</span>
+                        <h3 class="product-title">2020 Panini Contenders</h3>
+                        <p class="product-subtitle">Tua Tagovailoa Championship Ticket #103</p>
+                        <div class="product-footer">
+                            <span class="product-price">$999.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188440512011" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/Yq0AAeSwEz1qGdNS/s-l1600.webp" class="product-image" alt="2020 Panini Encased Rookie Endorsements Jalen H..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">BGS 9.5 RC /50</span>
+                        <h3 class="product-title">2020 Panini Encased</h3>
+                        <p class="product-subtitle">Rookie Endorsements Jalen Hurts #RE-JU</p>
                         <div class="product-footer">
                             <span class="product-price">$999.99</span>
                         </div>
@@ -368,38 +382,38 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188400008329" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/xFUAAeSwnlJqDJW~/s-l1600.webp" class="product-image" alt="2024 Panini Prizm Jayden Daniels Silver Prizm #..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188831306063" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/9N8AAeSwFLNqixTv/s-l1600.webp" class="product-image" alt="2019 Panini National Treasures Tom Brady Treasu..." loading="lazy">
                     <div class="product-info">
-                        <span class="product-badge">PSA 10 RC</span>
-                        <h3 class="product-title">2024 Panini Prizm</h3>
-                        <p class="product-subtitle">Jayden Daniels Silver Prizm #347 Washington</p>
+                        <span class="product-badge">SGC 9</span>
+                        <h3 class="product-title">2019 Panini National Treasures</h3>
+                        <p class="product-subtitle">Tom Brady Treasured Moments #44 /75</p>
                         <div class="product-footer">
-                            <span class="product-price">$974.99</span>
+                            <span class="product-price">$999.99</span>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188403346779" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/-8MAAeSwAFFqDccQ/s-l1600.webp" class="product-image" alt="2024 Panini Spectra Drake Maye Solar Eclipse #S..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188849742770" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/JBQAAeSwVzdqkInH/s-l1600.webp" class="product-image" alt="1996 Upper Deck Collector's Choice Lakers Team ..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">PSA 10 RC</span>
-                        <h3 class="product-title">2024 Panini Spectra</h3>
-                        <p class="product-subtitle">Drake Maye Solar Eclipse #SE-DME New England</p>
+                        <h3 class="product-title">1996 Upper Deck Collector's Choice</h3>
+                        <p class="product-subtitle">Lakers Team Set Kobe Bryant #LA2</p>
                         <div class="product-footer">
-                            <span class="product-price">$949.99</span>
+                            <span class="product-price">$899.99</span>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188411065588" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/rOkAAeSwfLxqEI-g/s-l1600.webp" class="product-image" alt="2024 Panini Prizm Jayden Daniels Silver Prizm #..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188789844474" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/2iEAAeSwnCZqfpNG/s-l1600.webp" class="product-image" alt="2020 Panini Prizm Tua Tagovailoa Red &amp; Yellow P..." loading="lazy">
                     <div class="product-info">
-                        <span class="product-badge">PSA 10 RC</span>
-                        <h3 class="product-title">2024 Panini Prizm</h3>
-                        <p class="product-subtitle">Jayden Daniels Silver Prizm #347</p>
+                        <span class="product-badge">PSA 9 RC /8</span>
+                        <h3 class="product-title">2020 Panini Prizm</h3>
+                        <p class="product-subtitle">Tua Tagovailoa Red &amp; Yellow Prizm #339</p>
                         <div class="product-footer">
-                            <span class="product-price">$949.99</span>
+                            <span class="product-price">$899.99</span>
                         </div>
                     </div>
                 </a>
@@ -416,38 +430,26 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188403957447" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/fW8AAeSwl6ZqDf~V/s-l1600.webp" class="product-image" alt="1999 Wizards of the Coast Fossil Dragonite 1st..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188969299580" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/eMgAAeSwqKNqsv0-/s-l1600.webp" class="product-image" alt="2023 Panini Select - 2024 Xrc Prizm Michael Pen..." loading="lazy">
                     <div class="product-info">
-                        <span class="product-badge">PSA 8</span>
-                        <h3 class="product-title">1999 Wizards of the Coast</h3>
-                        <p class="product-subtitle">Fossil Dragonite 1st Edition Holo #4</p>
+                        <span class="product-badge">RC</span>
+                        <h3 class="product-title">2023 Panini Select</h3>
+                        <p class="product-subtitle">2024 XRC Prizm Michael Penix Jr. #504 Tie-Dye /25</p>
                         <div class="product-footer">
                             <span class="product-price">$899.99</span>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188408019834" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/gbIAAeSwWz1qD21H/s-l1600.webp" class="product-image" alt="2020 Panini Absolute Joe Burrow #201 BGS 8.5 RC..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188849991060" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/zZsAAeSwQKZqkJse/s-l1600.webp" class="product-image" alt="2018 Panini National Treasures Collegiate Baker..." loading="lazy">
                     <div class="product-info">
-                        <span class="product-badge">BGS 8.5 RC</span>
-                        <h3 class="product-title">2020 Panini Absolute</h3>
-                        <p class="product-subtitle">Joe Burrow #201 Cincinnati Bengals /149</p>
+                        <span class="product-badge">BGS 9.5 RC</span>
+                        <h3 class="product-title">2018 Panini National Treasures</h3>
+                        <p class="product-subtitle">Collegiate Baker Mayfield #105 RPA /99</p>
                         <div class="product-footer">
-                            <span class="product-price">$849.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188408082949" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/c1MAAeSwKDVqD4OD/s-l1600.webp" class="product-image" alt="2021 Panini Donruss Downtown Aaron Rodgers #DT-..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">SGC 10</span>
-                        <h3 class="product-title">2021 Panini Donruss</h3>
-                        <p class="product-subtitle">Downtown Aaron Rodgers #DT-15 Green Bay Packers</p>
-                        <div class="product-footer">
-                            <span class="product-price">$849.99</span>
+                            <span class="product-price">$899.99</span>
                         </div>
                     </div>
                 </a>
@@ -470,13 +472,25 @@
             <div class="product-grid">
 
                 <a href="https://www.ebay.com/itm/188397858315" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/QvIAAeSwhPFqC71q/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Ja'Marr Chase Cincinnati..." loading="lazy">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/QvIAAeSwhPFqC71q/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Ja'Marr Chase Cincinnati ..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
                         <p class="product-subtitle">Ja'Marr Chase Cincinnati Bengals /5</p>
                         <div class="product-footer">
                             <span class="product-price">$649.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188365096554" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/9LoAAeSwe69p~1Q5/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Juan Soto New York Mets /..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge"></span>
+                        <h3 class="product-title">2025 Fanatics Emanate</h3>
+                        <p class="product-subtitle">Juan Soto New York Mets /10</p>
+                        <div class="product-footer">
+                            <span class="product-price">$499.99</span>
                         </div>
                     </div>
                 </a>
@@ -493,20 +507,8 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188365096554" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/9LoAAeSwe69p~1Q5/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Juan Soto New York Mets /10" loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge"></span>
-                        <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Juan Soto New York Mets /10</p>
-                        <div class="product-footer">
-                            <span class="product-price">$499.99</span>
-                        </div>
-                    </div>
-                </a>
-
                 <a href="https://www.ebay.com/itm/188363250215" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/HRgAAeSwh5lp~kBV/s-l1600.webp" class="product-image" alt="2025 Fanactics Emanate Bobby Witt Jr. Kansas Ci..." loading="lazy">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/HRgAAeSwh5lp~kBV/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Bobby Witt Jr. Kansas Cit..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
@@ -565,24 +567,24 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188365096559" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/6akAAeSwrclp~1Cg/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate David Ortiz Boston Red So..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge"></span>
-                        <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">David Ortiz Boston Red Sox /50</p>
-                        <div class="product-footer">
-                            <span class="product-price">$249.99</span>
-                        </div>
-                    </div>
-                </a>
-
                 <a href="https://www.ebay.com/itm/188363093801" class="product-card" target="_blank" rel="noopener noreferrer">
                     <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/S2YAAeSwGYJp~jHg/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Randy Johnson Arizona Dia..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
                         <p class="product-subtitle">Randy Johnson Arizona Diamondbacks /25</p>
+                        <div class="product-footer">
+                            <span class="product-price">$249.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188365096559" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/6akAAeSwrclp~1Cg/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate David Ortiz Boston Red So..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge"></span>
+                        <h3 class="product-title">2025 Fanatics Emanate</h3>
+                        <p class="product-subtitle">David Ortiz Boston Red Sox /50</p>
                         <div class="product-footer">
                             <span class="product-price">$249.99</span>
                         </div>
@@ -601,36 +603,12 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188365143071" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/JvIAAeSwCy1p~13q/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Nick Kurtz RC Oakland Ath..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge"></span>
-                        <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Nick Kurtz RC Oakland Athletics /99</p>
-                        <div class="product-footer">
-                            <span class="product-price">$199.99</span>
-                        </div>
-                    </div>
-                </a>
-
                 <a href="https://www.ebay.com/itm/188362821928" class="product-card" target="_blank" rel="noopener noreferrer">
                     <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/RCwAAeSwKuRp~hs8/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Christian Walker Halftone..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Christian Walker Halftone Short Edition # Houston Astros</p>
-                        <div class="product-footer">
-                            <span class="product-price">$199.99</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/187965425818" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/PIYAAeSwQMdp~jcP/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Marcus Allen On-Card Auto..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge"></span>
-                        <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Marcus Allen On-Card Auto 21/25 Orange Raiders HOF</p>
+                        <p class="product-subtitle">Christian Walker Halftone Short Edition Houston Astros</p>
                         <div class="product-footer">
                             <span class="product-price">$199.99</span>
                         </div>
@@ -661,26 +639,26 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188361648943" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/yPcAAeSwr9dp~b1R/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Kenneth Walker III # Seat..." loading="lazy">
+                <a href="https://www.ebay.com/itm/187965425818" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/PIYAAeSwQMdp~jcP/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Marcus Allen On-Card Auto..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Kenneth Walker III # Seattle Seahawks Super Bowl MVP /99</p>
+                        <p class="product-subtitle">Marcus Allen On-Card Auto 21/25 Orange Raiders HOF</p>
                         <div class="product-footer">
-                            <span class="product-price">$179.99</span>
+                            <span class="product-price">$199.99</span>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188365096553" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/LnwAAeSw16pp~0~T/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Buster Posey San Francisc..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188361648943" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/yPcAAeSwr9dp~b1R/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Kenneth Walker III Seattl..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Buster Posey San Francisco Giants /99</p>
+                        <p class="product-subtitle">Kenneth Walker III Seattle Seahawks Super Bowl MVP /99</p>
                         <div class="product-footer">
-                            <span class="product-price">$174.99</span>
+                            <span class="product-price">$179.99</span>
                         </div>
                     </div>
                 </a>
@@ -709,14 +687,14 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188397858310" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/OzcAAeSwPmNqC7ok/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Brett Favre Green Bay Pac..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188363090144" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/GeoAAeSwS1dp~jCk/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Ronald Acuña Jr. Atlanta ..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Brett Favre Green Bay Packers /99</p>
+                        <p class="product-subtitle">Ronald Acuña Jr. Atlanta Braves /50</p>
                         <div class="product-footer">
-                            <span class="product-price">$159.99</span>
+                            <span class="product-price">$149.99</span>
                         </div>
                     </div>
                 </a>
@@ -733,12 +711,12 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188363306939" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/sHgAAeSwFG1p~kcb/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Mike Schmidt Philadelphia..." loading="lazy">
+                <a href="https://www.ebay.com/itm/188365096555" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/VdsAAeSw~Rxp~1JR/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Gerrit Cole New York Yank..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Mike Schmidt Philadelphia Phillies /50</p>
+                        <p class="product-subtitle">Gerrit Cole New York Yankees /99</p>
                         <div class="product-footer">
                             <span class="product-price">$149.99</span>
                         </div>
@@ -757,14 +735,38 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188363090144" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/GeoAAeSwS1dp~jCk/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Ronald Acuña Jr. Atlanta..." loading="lazy">
+                <a href="https://www.ebay.com/itm/187965425825" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/dXEAAeSwtmpp~jtZ/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Ed Reed On-Card Auto 99/9..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge"></span>
                         <h3 class="product-title">2025 Fanatics Emanate</h3>
-                        <p class="product-subtitle">Ronald Acuña Jr. Atlanta Braves /50</p>
+                        <p class="product-subtitle">Ed Reed On-Card Auto 99/99 Green Ravens HOF Last Serial</p>
                         <div class="product-footer">
                             <span class="product-price">$149.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188362811863" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/HWgAAeSwpZhp~hnx/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Malik Nabers RC New York ..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge"></span>
+                        <h3 class="product-title">2025 Fanatics Emanate</h3>
+                        <p class="product-subtitle">Malik Nabers RC New York Giants /99</p>
+                        <div class="product-footer">
+                            <span class="product-price">$144.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188363339372" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/ry4AAeSwN8dp~kuN/s-l1600.webp" class="product-image" alt="2025 Fanatics Emanate Andrew McCutchen Pittsbur..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge"></span>
+                        <h3 class="product-title">2025 Fanatics Emanate</h3>
+                        <p class="product-subtitle">Andrew McCutchen Pittsburgh Pirates /99</p>
+                        <div class="product-footer">
+                            <span class="product-price">$129.99</span>
                         </div>
                     </div>
                 </a>
@@ -776,8 +778,201 @@
         </div>
     </section>
 
+    <!-- Pokemon -->
+    <section id="pokemon" class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pokémon Cards</h2>
+                <p class="section-subtitle">Graded vintage and modern Pokémon cards from PSA and CGC, including WOTC-era holos and Japanese promos</p>
+            </div>
+            <div class="product-grid">
+
+                <a href="https://www.ebay.com/itm/188458432744" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/dqUAAeSwEs9qHzsi/s-l1600.webp" class="product-image" alt="2000 Pokemon Japanese Neo 3 Lugia Promo #249 PS..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 10</span>
+                        <h3 class="product-title">2000 Pokemon Japanese Neo 3</h3>
+                        <p class="product-subtitle">Lugia Promo #249</p>
+                        <div class="product-footer">
+                            <span class="product-price">$2,499.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188460856535" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/muYAAeSwr6pqH~0v/s-l1600.webp" class="product-image" alt="1999 Wizards of the Coast Fossil Gengar 5/62 Un..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">CGC 8</span>
+                        <h3 class="product-title">1999 Pokemon Fossil</h3>
+                        <p class="product-subtitle">Gengar Unlimited Holo #5/62</p>
+                        <div class="product-footer">
+                            <span class="product-price">$899.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188460856540" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/o8QAAeSweCpqH~xv/s-l1600.webp" class="product-image" alt="1999 Wizards of the Coast Base Set - 1st Editio..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">CGC 9</span>
+                        <h3 class="product-title">1999 Pokemon Base Set</h3>
+                        <p class="product-subtitle">1st Edition Bulbasaur #44/102</p>
+                        <div class="product-footer">
+                            <span class="product-price">$499.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188460856537" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/dh0AAeSwqWNqH~3X/s-l1600.webp" class="product-image" alt="2003 Pokemon EX Ruby &amp; Sapphire Swampert Revers..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9</span>
+                        <h3 class="product-title">2003 Pokemon EX Ruby &amp; Sapphire</h3>
+                        <p class="product-subtitle">Swampert Reverse Foil #23</p>
+                        <div class="product-footer">
+                            <span class="product-price">$499.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188458432737" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/rHUAAeSwKkRqHz8F/s-l1600.webp" class="product-image" alt="2021 Pokemon Sword &amp; Shield Galarian Slowking V..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge"></span>
+                        <h3 class="product-title">2021 Pokemon Sword &amp; Shield</h3>
+                        <p class="product-subtitle">Galarian Slowking V Chilling Reign Full Art #179</p>
+                        <div class="product-footer">
+                            <span class="product-price">$459.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188794481387" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/OD0AAeSwvmNqf8qT/s-l1600.webp" class="product-image" alt="2019 Pokemon Hidden Fates Espeon GX Full Art #S..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 10</span>
+                        <h3 class="product-title">2019 Pokemon Hidden Fates</h3>
+                        <p class="product-subtitle">Espeon GX Full Art #SV60</p>
+                        <div class="product-footer">
+                            <span class="product-price">$330.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188794384461" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/Pm8AAeSw6fRqf8Zm/s-l1600.webp" class="product-image" alt="2000 Pokemon Team Rocket Dark Blastoise Holo #3..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 8</span>
+                        <h3 class="product-title">2000 Pokemon Team Rocket</h3>
+                        <p class="product-subtitle">Dark Blastoise Holo #3</p>
+                        <div class="product-footer">
+                            <span class="product-price">$299.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188794495042" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/bQwAAeSwAVhqf8zt/s-l1600.webp" class="product-image" alt="2025 Pokemon Prismatic Evolutions Espeon ex Spe..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9</span>
+                        <h3 class="product-title">2025 Pokemon Prismatic Evolutions</h3>
+                        <p class="product-subtitle">Espeon ex Special Illustration Rare #155</p>
+                        <div class="product-footer">
+                            <span class="product-price">$299.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188831000454" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/Ha4AAeSw61RqittG/s-l1600.webp" class="product-image" alt="2022 Pokemon Silver Tempest Rayquaza VMAX Chara..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">CGC 10</span>
+                        <h3 class="product-title">2022 Pokemon Silver Tempest</h3>
+                        <p class="product-subtitle">Rayquaza VMAX Character Rare #TG20</p>
+                        <div class="product-footer">
+                            <span class="product-price">$299.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188794487096" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/HuUAAeSwnu5qf8r2/s-l1600.webp" class="product-image" alt="2019 Pokemon Team Up Sabrina's Suggestion Full ..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9</span>
+                        <h3 class="product-title">2019 Pokemon Team Up</h3>
+                        <p class="product-subtitle">Sabrina's Suggestion Full Art #181</p>
+                        <div class="product-footer">
+                            <span class="product-price">$275.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188458432743" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/D~QAAeSwlGBqH0A4/s-l1600.webp" class="product-image" alt="2025 Pokemon SV-P JP Special Box Pikachu Fukuok..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9</span>
+                        <h3 class="product-title">2025 Pokemon SV-P Promo</h3>
+                        <p class="product-subtitle">Fukuoka's Pikachu Special Box (Japanese) #289</p>
+                        <div class="product-footer">
+                            <span class="product-price">$234.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188831009505" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/T6EAAeSwbLhqity4/s-l1600.webp" class="product-image" alt="2023 Pokemon Mew Venusaur ex Special Illustrati..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9</span>
+                        <h3 class="product-title">2023 Pokemon 151</h3>
+                        <p class="product-subtitle">Venusaur ex Special Illustration Rare #198</p>
+                        <div class="product-footer">
+                            <span class="product-price">$129.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188794496587" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/QbYAAeSwOfRqf809/s-l1600.webp" class="product-image" alt="2025 Pokemon SV-P Promo Victini #271 PSA 10" loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 10</span>
+                        <h3 class="product-title">2025 Pokemon SV-P Promo</h3>
+                        <p class="product-subtitle">Victini #271</p>
+                        <div class="product-footer">
+                            <span class="product-price">$99.99</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188794422056" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/RXQAAeSwFN5qf8hM/s-l1600.webp" class="product-image" alt="2004 Pokemon EX Fire Red &amp; Leaf Green Magneton ..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">CGC 8</span>
+                        <h3 class="product-title">2004 Pokemon EX FireRed &amp; LeafGreen</h3>
+                        <p class="product-subtitle">Magneton #27</p>
+                        <div class="product-footer">
+                            <span class="product-price">$75.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.ebay.com/itm/188794489585" class="product-card" target="_blank" rel="noopener noreferrer">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/ZToAAeSwL8lqf8uv/s-l1600.webp" class="product-image" alt="2023 Pokemon Crown Zenith Pikachu Full Art #160..." loading="lazy">
+                    <div class="product-info">
+                        <span class="product-badge">PSA 9</span>
+                        <h3 class="product-title">2023 Pokemon Crown Zenith</h3>
+                        <p class="product-subtitle">Pikachu Full Art #160</p>
+                        <div class="product-footer">
+                            <span class="product-price">$75.00</span>
+                        </div>
+                    </div>
+                </a>
+            
+            </div>
+        </div>
+    </section>
+
     <!-- Sealed LEGO Sets -->
-    <section id="lego" class="featured-section">
+    <section id="lego" class="featured-section" style="background-color: var(--light-gray);">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Sealed LEGO Sets</h2>
@@ -785,31 +980,7 @@
             </div>
             <div class="product-grid">
 
-                <a href="https://www.ebay.com/itm/188400721095" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/ODQAAeSwyFxp~6lM/s-l1600.webp" class="product-image" alt="LEGO 75159 Star Wars Death Star 2016 RARE - Fac..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">FACTORY SEALED</span>
-                        <h3 class="product-title">LEGO Star Wars</h3>
-                        <p class="product-subtitle">Death Star 2016 RARE (#75159)</p>
-                        <div class="product-footer">
-                            <span class="product-price">$1,500.00</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188400929076" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/UVkAAeSwmc1p~7FY/s-l1600.webp" class="product-image" alt="LEGO Star Wars: Mos Eisley Cantina (75290) - Fa..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">FACTORY SEALED</span>
-                        <h3 class="product-title">LEGO Star Wars</h3>
-                        <p class="product-subtitle">Mos Eisley Cantina (#75290)</p>
-                        <div class="product-footer">
-                            <span class="product-price">$700.00</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188368184592" class="product-card" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.ebay.com/itm/188577120902" class="product-card" target="_blank" rel="noopener noreferrer">
                     <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/QTMAAeSwEv9qAJGD/s-l1600.webp" class="product-image" alt="LEGO Star Wars: Tantive IV (75244) - Factory Se..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">FACTORY SEALED</span>
@@ -833,18 +1004,6 @@
                     </div>
                 </a>
 
-                <a href="https://www.ebay.com/itm/188370012721" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/EgwAAeSwHQBqATNw/s-l1600.webp" class="product-image" alt="Lego Star Wars A Wing Starfighter Set 75275 UCS..." loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">FACTORY SEALED</span>
-                        <h3 class="product-title">LEGO Star Wars</h3>
-                        <p class="product-subtitle">A Wing Starfighter (#75275) · UCS Retired</p>
-                        <div class="product-footer">
-                            <span class="product-price">$299.99</span>
-                        </div>
-                    </div>
-                </a>
-
                 <a href="https://www.ebay.com/itm/188368184586" class="product-card" target="_blank" rel="noopener noreferrer">
                     <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/XhcAAeSwo1lqAIxE/s-l1600.webp" class="product-image" alt="LEGO TECHNIC: Land Rover Defender (42110) - Fac..." loading="lazy">
                     <div class="product-info">
@@ -858,7 +1017,7 @@
                 </a>
 
                 <a href="https://www.ebay.com/itm/188368184588" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/8OcAAeSwqZVqAI5w/s-l1600.webp" class="product-image" alt="LEGO Icons: NASA Space Shuttle Discovery 10283..." loading="lazy">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/8OcAAeSwqZVqAI5w/s-l1600.webp" class="product-image" alt="LEGO Icons: NASA Space Shuttle Discovery 10283 ..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">FACTORY SEALED</span>
                         <h3 class="product-title">LEGO Icons</h3>
@@ -870,25 +1029,13 @@
                 </a>
 
                 <a href="https://www.ebay.com/itm/188365771477" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/7WYAAeSw10Rp~7Y7/s-l1600.webp" class="product-image" alt="LEGO Technic Porsche 911 RSR (42096) – Factory..." loading="lazy">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/7WYAAeSw10Rp~7Y7/s-l1600.webp" class="product-image" alt="LEGO Technic Porsche 911 RSR (42096) – Factory ..." loading="lazy">
                     <div class="product-info">
                         <span class="product-badge">FACTORY SEALED</span>
                         <h3 class="product-title">LEGO Technic</h3>
                         <p class="product-subtitle">Porsche 911 RSR (#42096)</p>
                         <div class="product-footer">
                             <span class="product-price">$185.00</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.ebay.com/itm/188370010150" class="product-card" target="_blank" rel="noopener noreferrer">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f0f0f0'/%3E%3C/svg%3E" data-src="https://i.ebayimg.com/images/g/fGkAAeSwVJVqATJf/s-l1600.webp" class="product-image" alt="LEGO Star Wars Yoda (75255) - Factory Sealed" loading="lazy">
-                    <div class="product-info">
-                        <span class="product-badge">FACTORY SEALED</span>
-                        <h3 class="product-title">LEGO Star Wars</h3>
-                        <p class="product-subtitle">Yoda (#75255)</p>
-                        <div class="product-footer">
-                            <span class="product-price">$149.99</span>
                         </div>
                     </div>
                 </a>
